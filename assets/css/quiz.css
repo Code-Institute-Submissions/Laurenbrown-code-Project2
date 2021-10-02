@@ -24,7 +24,7 @@ body{
 
 .answer-prefix{
     padding:2rem 2.5rem;
-    color: blueviolet;
+    color: rgb(211, 84, 38);
 }
 
 .answer-text{
@@ -42,17 +42,17 @@ body{
 
 /* display at the top of the page */
 
-#diplay{
+#display{
     display: flex;
     justify-content: space-between;
 }
 
-.diplay-prefix{
+.display-prefix{
     text-align: left;
     font-size: 2rem;
 }
 
-.diplay-main-text{
+.display-main-text{
     text-align: center;
 }
 
