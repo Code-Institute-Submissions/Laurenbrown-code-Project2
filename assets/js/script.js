@@ -64,7 +64,7 @@ let questions = [
     question:"True or false: The word ‘hallow’ means saint or holy person?",
     option1:"True",
     option2:"False",
-    option3:"Don't Know",
+    option3:"Your guess is as good as mine ",
     correctAnswer: 1,
 },
 {
