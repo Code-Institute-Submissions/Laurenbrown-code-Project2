@@ -76,7 +76,7 @@ body{
     width: 0%;
 }
 
-@media screen and (max-width:1500px){
+@media screen and (max-width:1200px){
 
     .answer-container{
         min-width: 40rem;
