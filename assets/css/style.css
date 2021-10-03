@@ -90,6 +90,25 @@ h2{
     margin-left: 1rem;
 }
 
+.reset{
+    text-decoration: none;
+    padding: 1rem;
+    width: 20rem;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: rgb(211, 84, 38);
+    background-color: rgb(51, 48, 59);
+    border: 3px solid rgb(211, 84, 38);
+    border-radius: 0.5rem;
+}
+
+.reset:hover{
+    cursor: pointer;
+    color: rgb(51, 48, 59);
+    background-color: rgb(211, 84, 38);
+}
+
 @media screen and (max-width:350px)  {
     
     h1{
