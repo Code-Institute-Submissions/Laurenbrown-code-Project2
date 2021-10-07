@@ -1,6 +1,6 @@
 # Project 2 - Halloween Quiz  
 
-## This halloween quiz has been created to provide entertainment to anyone looking for a fun activity to whilst they clebrate hallowen at the end of this month, it contains 10 questions on all related to halloween. 
+### This halloween quiz has been created to provide entertainment to anyone looking for a fun activity to whilst they clebrate hallowen at the end of this month, it contains 10 questions on all related to halloween. 
 
 # Features
 
