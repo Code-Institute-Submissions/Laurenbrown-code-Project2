@@ -85,10 +85,18 @@ h1{
 }
 /* home page buttong on the end page */
 
+h2{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: rgb(211, 84, 38);
+    text-align: center;
+}
+
 .reset{
     text-decoration: none;
     padding: 1rem;
-    width: 20rem;
+    width: 30rem;
+    font-size: 2rem;
     text-align: center;
     margin-top: 1rem;
     margin-bottom: 1rem;

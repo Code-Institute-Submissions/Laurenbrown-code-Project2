@@ -4,11 +4,15 @@ const progress = document.querySelector('#progress');
 const scoreText = document.querySelector('#score');
 const progressBarFull = document.querySelector('#progressBarFull');
 
+/** variables for questions, queastions counter and score  */
+
 let currentQuestion = {}
 let acceptingAnswers = true
 let score = 0
 let questionCounter = 0 
 let availableQuestion = []
+
+/** list of questions, options and correct answers */
 
 let questions = [
 {
@@ -85,6 +89,8 @@ let questions = [
 
 const SCORE_POINTS = 10
 const MAX_QUESTIONS = 10
+
+/** Arrow functions to run the quiz */
 
 startGame = () => {
     questionCounter = 0
