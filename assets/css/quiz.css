@@ -59,22 +59,7 @@ body{
 .display-main-text{
     text-align: center;
 }
-/*
-#progressBar{
-    clear:both;
-    width:15rem;
-    height:2rem;
-    border: 2px solid green;
-    margin-top: 1rem;
-    border-radius: 50px;
-    overflow: hidden;
-}
-*/
-#progressBarFull{
-    height: 100%;
-    background: green;
-    width: 0%;
-}
+
 
 @media screen and (max-width:1200px){
 
