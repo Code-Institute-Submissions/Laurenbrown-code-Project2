@@ -10,12 +10,13 @@ body{
     background-color: rgb(51, 48, 59)
 }
 
+/* homepage and website styling */
+
 h1{
     font-size: 4rem;
     margin-bottom: 1rem;
     color: rgb(211, 84, 38);
 }
-
 
 #startmsg{
     font-size: 2.5rem;
@@ -55,6 +56,8 @@ h1{
     text-align: center;
 }
 
+/* button styling */
+
 .btn{
     text-decoration: none;
     padding: 1rem;
@@ -75,14 +78,12 @@ h1{
     background-color: rgb(211, 84, 38);
 }
 
-.btn[disabled]:hover{
-    cursor: not-allowed;
-}
 
 .fas{
     font-size: 1.5rem;
     margin-left: 1rem;
 }
+/* home page buttong on the end page */
 
 .reset{
     text-decoration: none;
@@ -102,6 +103,8 @@ h1{
     color: rgb(51, 48, 59);
     background-color: rgb(211, 84, 38);
 }
+
+/* media screen styling */
 
 @media screen and (max-width:350px)  {
     

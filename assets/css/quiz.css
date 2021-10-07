@@ -1,9 +1,12 @@
 body{
     color: antiquewhite ;
 }
+
+/* answer and question display*/
+
 #question{
     color:antiquewhite;
-    font-size : 60px;
+    font-size : 2.5rem;
     text-align: center;
     margin-bottom: 10px;
 }
@@ -14,8 +17,7 @@ body{
     border-radius: 4px;
     background-color: rgb(51, 48, 59);
     border: 5px solid rgb(211, 84, 38);
-    font-size: 3rem;
-    min-width: 80rem;
+    font-size: 2.5rem;
 }
 
 .answer-container:hover{
@@ -25,7 +27,7 @@ body{
 }
 
 .answer-prefix{
-    padding:2rem 2.5rem;
+    padding:2rem 2rem;
     color: rgb(211, 84, 38);
     font-size: 40px;
 }
@@ -36,6 +38,8 @@ body{
     width:100%;
 }
 
+/* when the correct or incorrect answers are displayed */
+
 .correct{
     background-color: rgb(0, 128, 0);
 }
@@ -44,7 +48,7 @@ body{
     background-color: rgb(148, 27, 12);
 }
 
-/* display at the top of the page */
+/* score and question counter  */
 
 #display{
     display: flex;
@@ -60,6 +64,7 @@ body{
     text-align: center;
 }
 
+/* media styling */
 
 @media screen and (max-width:1200px){
 
