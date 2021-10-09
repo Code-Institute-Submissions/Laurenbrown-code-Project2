@@ -26,8 +26,11 @@
 ![image5](assets/images/Screenshot4.png)
 
 # Future Ideas
+- In furture i think it would be a nice idea to add in extra rounds with different levels of diffuclty.
+- i also think it be a good idea to make a this into a series and have a quiz for each notable holiday/festival that happens during the calender year e.g Easter, Valentines Day, Christmas etc.
 
 # Testing
+
 
 # Deployment
 
