@@ -13,6 +13,7 @@ body{
 .answer-container{
     display: flex;
     margin-bottom: 12px;
+    min-width:80rem;
     width: 100%;
     border-radius: 4px;
     background-color: rgb(51, 48, 59);
