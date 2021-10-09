@@ -2,9 +2,8 @@ const question = document.querySelector('#question');
 const answers = Array.from(document.querySelectorAll('.answer-text'));
 const progress = document.querySelector('#progress');
 const scoreText = document.querySelector('#score');
-const progressBarFull = document.querySelector('#progressBarFull');
 
-/** variables for questions, queastions counter and score  */
+/** variables for questions, questions counter and score  */
 
 let currentQuestion = {}
 let acceptingAnswers = true
@@ -103,7 +102,7 @@ getNewQuestion = () => {
     if(availableQuestion.length === 0 || questionCounter > MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score)
         
-        return window.location='/end.html'
+        return window.location='end.html'
     }
 
     questionCounter++
