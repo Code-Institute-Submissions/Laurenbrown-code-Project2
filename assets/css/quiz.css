@@ -35,7 +35,7 @@ body{
 
 .answer-text{
     font-size: 45px;
-    padding-block: 50px;
+    padding: 50px;
     width:100%;
 }
 
@@ -65,12 +65,58 @@ body{
     text-align: center;
 }
 
-/* media styling */
+/* media styling screens 1200px and below */
 
-@media screen and (max-width:1200px){
+@media screen and (max-width:1200px) {
+
+    #display{
+        display: flex;
+        flex-direction: column;
+        font-size: 2rem;
+    }
+
+    .display-prefix{
+        text-align: center;
+    }
+
+    .answer-text{
+        text-align: center;
+        font-size: 30px;
+    }
 
     .answer-container{
-        min-width: 40rem;
+        width: 80%;
+        min-width: initial;
     }
+    
+}
+
+/* media styling screens 499px and below */
+
+@media screen and (max-width:499px){
+
+    .answer-container {
+        width: initial;
+        min-width: 85%;
+    }
+
+    .answer-text{
+        font-size: 20px;
+        padding: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .answer-prefix{
+        font-size: 20px;
+        padding:20px;
+    }
+
+    #question{
+        font-size:1.5rem;
+        display:block;
+        overflow-wrap: break-word;
+    }
+
     
 }

@@ -83,7 +83,7 @@ h1{
     font-size: 1.5rem;
     margin-left: 1rem;
 }
-/* home page buttong on the end page */
+/* end page styling  */
 
 h2{
     font-size: 2.5rem;
@@ -114,11 +114,55 @@ h2{
 
 /* media screen styling */
 
-@media screen and (max-width:350px)  {
+@media screen and (max-width:499px)  {
     
     h1{
+        font-size: 2.5rem;
+        text-align: center;
+        margin-bottom: 1rem;
+        color: rgb(211, 84, 38);
+    }
+
+    #startmsg{
         font-size: 2rem;
-        width: 75%;
+        margin-bottom: 1rem;
+        color: rgb(211, 84, 38);
+        text-align: center;
+    }
+
+    .btn{
+        text-decoration: none;
+        padding: 1rem;
+        width: 10rem;
+        font-size: 1.5rem;
+        text-align: center;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        color: rgb(211, 84, 38);
+        background-color: rgb(51, 48, 59);
+        border: 3px solid rgb(211, 84, 38);
+        border-radius: 0.5rem;
+    }
+
+    .reset{
+        text-decoration: none;
+        padding: 1rem;
+        width: 10rem;
+        font-size: 1.5rem;
+        text-align: center;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        color: rgb(211, 84, 38);
+        background-color: rgb(51, 48, 59);
+        border: 3px solid rgb(211, 84, 38);
+        border-radius: 0.5rem;
+
+    }
+
+    h2{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        color: rgb(211, 84, 38);
         text-align: center;
     }
 }
