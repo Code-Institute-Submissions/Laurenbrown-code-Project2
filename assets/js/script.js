@@ -5,11 +5,11 @@ const scoreText = document.querySelector('#score');
 
 /** variables for questions, questions counter and score  */
 
-let currentQuestion = {}
-let acceptingAnswers = true
-let score = 0
-let questionCounter = 0 
-let availableQuestion = []
+let currentQuestion = {};
+let acceptingAnswers = true;
+let score = 0;
+let questionCounter = 0;
+let availableQuestion = [];
 
 /** list of questions, options and correct answers */
 
@@ -84,74 +84,74 @@ let questions = [
     option3:"Treat Day",
     correctAnswer: 2,
 },
-]
+];
 
-const SCORE_POINTS = 10
-const MAX_QUESTIONS = 10
+const SCORE_POINTS = 10;
+const MAX_QUESTIONS = 10;
 
 /** Arrow functions to run the quiz */
 
 startGame = () => {
-    questionCounter = 0
-    score = 0
-    availableQuestion = [...questions]
-    getNewQuestion()
-}
+    questionCounter = 0;
+    score = 0;
+    availableQuestion = [...questions];
+    getNewQuestion();
+};
 
 getNewQuestion = () => {
     if(availableQuestion.length === 0 || questionCounter > MAX_QUESTIONS) {
-        localStorage.setItem('mostRecentScore', score)
+        localStorage.setItem('mostRecentScore', score);
         
-        return window.location='end.html'
+        return window.location='end.html';
     }
 
-    questionCounter++
-    progress.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`
+    questionCounter++;
+    progress.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`;
 
-    const questionsIndex = Math.floor(Math.random() * availableQuestion.length)
-    currentQuestion = availableQuestion[questionsIndex]
-    question.innerText = currentQuestion.question
+    const questionsIndex = Math.floor(Math.random() * availableQuestion.length);
+    currentQuestion = availableQuestion[questionsIndex];
+    question.innerText = currentQuestion.question;
 
     answers.forEach(option => {
-        const number = option.dataset['number']
-        option.innerText = currentQuestion['option' + number]
-    })
+        const number = option.dataset['number'];
+        option.innerText = currentQuestion['option' + number];
+    });
 
-    availableQuestion.splice(questionsIndex, 1)
+    availableQuestion.splice(questionsIndex, 1);
 
-    acceptingAnswers = true
-}
+    acceptingAnswers = true;
+};
 
 answers.forEach(option => {
     option.addEventListener('click', e => {
-        if(!acceptingAnswers) return
+        if(!acceptingAnswers) return;
 
-        acceptingAnswers = false
-        const selectedOption = e.target
-        const selectedAnswer = selectedOption.dataset['number']
+        acceptingAnswers = false;
+        const selectedOption = e.target;
+        const selectedAnswer = selectedOption.dataset['number'];
 
-        let classToApply = selectedAnswer == currentQuestion.correctAnswer ? 'correct' : 'incorrect'
+        let classToApply = selectedAnswer == currentQuestion.correctAnswer ? 'correct' : 'incorrect';
 
         if (classToApply === 'correct') {
-            incrementScore(SCORE_POINTS)
+            incrementScore(SCORE_POINTS);
         }
 
-        selectedOption.parentElement.classList.add(classToApply)
+        selectedOption.parentElement.classList.add(classToApply);
         setTimeout ( () =>{
-            selectedOption.parentElement.classList.remove(classToApply)
-            getNewQuestion()
+            selectedOption.parentElement.classList.remove(classToApply);
+            getNewQuestion();
 
-        }, 1000)
+        }, 1000);
 
-    })
+    });
 
-})
+});
 
 incrementScore = num => {
-    score +=num
-    scoreText.innerText = score
+    score +=num;
+    scoreText.innerText = score;
 
-}
+};
 
-startGame()
+startGame();
 

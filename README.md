@@ -30,7 +30,9 @@
 - I also think it be a good idea to make a this into a series and have a quiz for each notable holiday/festival that happens during the calender year e.g Easter, Valentines Day, Christmas etc.
 
 # Testing
-
+- no errors were returned when I tested all three HTML files in the following validator -  https://validator.w3.org/nu/
+- no errors were reuturned when I tested both CSS files in the following validator - https://jigsaw.w3.org/css-validator/
+- no errors were returned when i tested the JS code however there where several warnings returned informing me that some semi colons where missing - https://jshint.com/ 
 
 # Deployment
 
