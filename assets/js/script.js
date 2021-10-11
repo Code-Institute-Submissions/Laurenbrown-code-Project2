@@ -86,10 +86,12 @@ let questions = [
 },
 ];
 
+/** Function to run the Qquiz, this is the code written following instructions in a youtube to tutorial linked in my Read me file */
+
 const SCORE_POINTS = 10;
 const MAX_QUESTIONS = 10;
 
-/** Arrow functions to run the quiz */
+
 
 startGame = () => {
     questionCounter = 0;
