@@ -42,9 +42,11 @@ https://laurenbrown-code.github.io/Project2/
 
 # Credits
 
-- I followed a tutorial on YouTube [here](https://www.youtube.com/watch?v=f4fB9Xg2JEY&t=584s) to create this quiz, it walked me through the creation of the javascript code i have used in my project. 
-- I also viewed several pages on the [MDN Web Docs](https://developer.mozilla.org/en-US/) and the [W3Schools](https://www.w3schools.com/) to try and better my understanding of Javascript functions and elements 
+- The icons on the start and end pages were taken from Font Awesome
+- The font i used throughout the website was taken from Google Fonts 
 - I visited thw following three website to find the questions used in the quiz:
    - https://icebreakerideas.com/halloween-trivia/ 
    - https://pubquizquestionshq.com/categories/halloween
    - https://parade.com/1066846/jessicasager/halloween-trivia/
+- I followed a tutorial on YouTube [here](https://www.youtube.com/watch?v=f4fB9Xg2JEY&t=584s) to create this quiz, it walked me through the creation of the javascript code i have used in my project. 
+- I also viewed several pages on the [MDN Web Docs](https://developer.mozilla.org/en-US/) and the [W3Schools](https://www.w3schools.com/) to try and better my understanding of Javascript functions and elements 
