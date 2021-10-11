@@ -1,6 +1,6 @@
 # Project 2 - Halloween Quiz  
 
-### This halloween quiz has been created to provide entertainment to anyone looking for a fun activity to whilst they clebrate hallowen at the end of this month, it contains 10 questions on all related to halloween. 
+### <div  align="center"> This halloween quiz has been created to provide entertainment to anyone looking for a fun activity to do whilst they clebrate halloween, it contains 10 questions about Halloween.
 
 # Features
 
@@ -10,7 +10,7 @@
 ![image1](assets/images/Screenshot2.png)
 
 ## Question and Answer display 
-- When the user selects an answer from the list of options presented to them under the question, when it has been clicked on the background of the option will turn green if they have chosen the correct answer and red if they have chosen the wrong answer. 
+- When the user chooses an answer from the list of options presented to them under the question, the background of the chosen answer will turn green if they have chosen the correct answer and red if they have chosen the wrong answer. 
 
 ![image2](assets/images/Screenshot1crop.png) ![image3](assets/images/Screenshot3crop.png)
 
@@ -21,7 +21,7 @@
 ![image4](assets/images/Screenshot5crop.png)
 
 ## End page 
-- When they have answerd all 10 questions they will be presented with an end page informing them that they have completed the quiz. There is a home page button that the user can click that will take them to the quiz home page. 
+- When they have answerd all 10 questions they will be presented with the end page informing them that they have completed the quiz. There is a home page button that the user can click that will take them to the quiz home page. 
 
 ![image5](assets/images/Screenshot4.png)
 
